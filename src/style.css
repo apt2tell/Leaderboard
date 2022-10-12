@@ -1,3 +1,56 @@
 body {
-    background-color: bisque;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.scores {
+  display: flex;
+  gap: 1rem;
+}
+
+.leader-board {
+  display: flex;
+  gap: 5rem;
+}
+
+.recent-scores {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 1rem;
+  background: none;
+  box-shadow: 2px 2px;
+  width: 5rem;
+  height: 2rem;
+}
+
+input {
+  width: 9rem;
+  height: 1.5rem;
+  border: 2px solid #000;
+  box-shadow: 2px 2px;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #000;
+}
+
+li {
+  width: 13rem;
+  height: 1.5rem;
+}
+
+li:nth-child(odd) {
+  background: #ddd;
 }
