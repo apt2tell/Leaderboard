@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
-In this exercise I  build a simple yet powerful webpack boilerplate, which I can later use as a starting point in my projects. 
+# Leaderboard
+This is a setup JavaScript project for the Leaderboard list app, using wepack, gitflow, ES6 syntax. I implemented in the project the wireframe version. 
 
  ## Learning objectives
+- Use callbacks and promises.
+- Learn how to use proper ES6 syntax.
+- Use ES6 modules to write modular JavaScript.
 - Use webpack to bundle JavaScript.
 
 ## Built With
 
 - HTML, CSS, JavaScript
-- lodash
+- Gitflow
 - npm
 - html-webpack-plugin
 - webpack-dev-server
@@ -23,7 +26,7 @@ Open index.html
 #### Step 1:
 - Clone this repository in your local machine terminal:
 
-git clone <code>https://github.com/Okechukwu-muokwugwo/Webpack-setup.git</code>
+git clone <code>https://github.com/Okechukwu-muokwugwo/Leaderboard.git</code>
 
 #### Step 2:
 
