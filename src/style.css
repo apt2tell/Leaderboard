@@ -50,6 +50,7 @@ li {
   width: 13rem;
   height: 1.5rem;
 }
+
 li:nth-child(odd) {
   background: #ddd;
 }
