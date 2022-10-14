@@ -1,12 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
-This is a setup JavaScript project for the Leaderboard list app, using wepack, gitflow, ES6 syntax. I implemented in the project the wireframe version. 
+ In this project I posted to and received game from Leaderboard list app; sending and receiving data from/to the Leaderboard API. 
 
  ## Learning objectives
-- Use callbacks and promises.
-- Learn how to use proper ES6 syntax.
-- Use webpack to bundle JavaScript.
+- Send and receive data from an API.
+- Use API documentation.
+- Understand and use JSON.
+- Make JavaScript code asynchronous.
 
 ## Built With
 
