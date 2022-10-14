@@ -5,7 +5,7 @@ import addScore from './modules/addScore.js';
 // Render score on the board
 const leaderBoard = ` <div class="recent-scores">
     <div class="scores">
-        <h3 id="scores">Recent Scores</h3>
+        <h3 class="scores">Recent Scores</h3>
         <button type="button" id="refresh">Refresh</button>
     </div>
 

@@ -1,18 +1,29 @@
+@import url('http://fonts.cdnfonts.com/css/audiowide');
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
   width: 70%;
   margin: 1rem auto;
 }
 
+.headline {
+  font-family: 'audiowide', sans-serif;
+}
+
 .scores {
+  font-family: 'audiowide', sans-serif;
   display: flex;
   gap: 1rem;
+  color: #e5e510;
 }
 
 .leader-board {
   display: flex;
   gap: 5rem;
+  padding: 2rem;
+  background: #eee;
+  background: linear-gradient(to bottom, #d00000, #6a040f, #370617);
 }
 
 .recent-scores {
@@ -22,10 +33,20 @@ body {
 
 button {
   margin-top: 1rem;
-  background: none;
+  background: #e85d04;
   box-shadow: 2px 2px;
   width: 5rem;
   height: 2rem;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #eae2b7;
+}
+
+.add-score {
+  font-family: 'audiowide', sans-serif;
+  color: #e5e510;
 }
 
 input {
@@ -33,6 +54,8 @@ input {
   height: 1.5rem;
   border: 2px solid #000;
   box-shadow: 2px 2px;
+  border-radius: 6px;
+  background: #ffba08;
 }
 
 input::placeholder {
@@ -43,14 +66,14 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  border: 2px solid #000;
+  border: 2px solid #fff;
 }
 
 li {
-  width: 13rem;
+  color: #fff;
   height: 1.5rem;
 }
 
 li:nth-child(odd) {
-  background: #ddd;
+  background: #ffba08;
 }
