@@ -21,7 +21,6 @@ body {
 .leader-board {
   display: flex;
   gap: 5rem;
-  width: 60%;
   padding: 2rem;
   background: #eee;
   background: linear-gradient(to bottom, #d00000, #6a040f, #370617);
@@ -39,6 +38,10 @@ button {
   width: 5rem;
   height: 2rem;
   border-radius: 6px;
+}
+
+button:hover {
+  background: #eae2b7;
 }
 
 .add-score {
