@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Leaderboard
 This project is an application that allows users to post and receive game scores from a leaderboard list. It utilizes an API to send and receive data to and from the leaderboard.I. 
 
@@ -70,11 +68,10 @@ Contributions, issues and feature requests are welcome!
 - Make your changes and commit them:
 <code>git commit -m "Add your feature description"</code>
 - Push to the branch:
-<code>git push origin feature/your-feature-name
-</code>
+<code>git push origin feature/your-feature-name </code>
 - Create a pull request to the original repository.
 
->Please ensure your pull request adhers to the coding conventions and includes any necessary tests or documentation.
+> Please ensure your pull request adhers to the coding conventions and includes any necessary tests or documentation.
 
 
 ## Show your support
