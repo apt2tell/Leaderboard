@@ -73,7 +73,8 @@ Contributions, issues and feature requests are welcome!
 <code>git push origin feature/your-feature-name
 </code>
 - Create a pull request to the original repository.
-Please ensure your pull request adhers to the coding conventions and includes any necessary tests or documentation.
+
+>Please ensure your pull request adhers to the coding conventions and includes any necessary tests or documentation.
 
 
 ## Show your support
