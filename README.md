@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
- In this project I posted to and received game from Leaderboard list app; sending and receiving data from/to the Leaderboard API. 
+This project is an application that allows users to post and receive game scores from a leaderboard list. It utilizes an API to send and receive data to and from the leaderboard.I. 
 
  ## Learning objectives
 - Send and receive data from an API.
@@ -16,12 +16,18 @@
 - npm
 - html-webpack-plugin
 - webpack-dev-server
+- API: Leaderboard API
 
+## Live demo
+> [View](https://starlit-leaderboard.netlify.app/)
 
-## Getting Started
-Open index.html
+## Features
+- Post game scores to the leaderboard.
+- Retrieve the leaderboard list with the highest scores.
+- Display the leaderboard list in descending order.
+- Update the leaderboard with new scores.
 
-### To launch the project locally:
+## Installation
 
 #### Step 1:
 - Clone this repository in your local machine terminal:
@@ -30,7 +36,21 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/Leaderboard.git</code>
 
 #### Step 2:
 
-- Open the html pages in a web browser preferrably Chrome.
+- Navigate to the project directory:
+<code>cd leaderboard</code>
+
+### Step 3:
+- Install the required dependencies:
+<code>npm install</code>
+
+## Usage
+- Open the application in your web browser.
+
+- Click on the button to submit a game score to the leaderboard. Enter the required details and submit the form.
+
+- To view the leaderboard list, click on the "Refresh" button. The list will be displayed in descending order, showing the highest scores at the top.
+
+- To update the leaderboard, repeat step 2 with a higher score. The leaderboard will be automatically updated with the new score.
 
 ## Author
 
@@ -44,6 +64,16 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/Leaderboard.git</code>
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+- Fork the repository
+- Create a new branch:
+<code>git checkout -b feature/your-feature-name</code>
+- Make your changes and commit them:
+<code>git commit -m "Add your feature description"</code>
+- Push to the branch:
+<code>git push origin feature/your-feature-name
+</code>
+- Create a pull request to the original repository.
+Please ensure your pull request adhers to the coding conventions and includes any necessary tests or documentation.
 
 
 ## Show your support
