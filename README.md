@@ -1,5 +1,5 @@
 # Leaderboard
-This project is an application that allows users to post and receive game scores from a leaderboard list. It utilizes an API to send and receive data to and from the leaderboard.I. 
+This project is an application that allows users to post and receive game scores from a leaderboard list. It utilizes an API to send and receive data to and from the leaderboard.
 
  ## Learning objectives
 - Send and receive data from an API.
