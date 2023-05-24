@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
- In this project I posted to and received game from Leaderboard list app; sending and receiving data from/to the Leaderboard API. 
+This project is an application that allows users to post and receive game scores from a leaderboard list. It utilizes an API to send and receive data to and from the leaderboard.I. 
 
  ## Learning objectives
 - Send and receive data from an API.
@@ -64,6 +64,16 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/Leaderboard.git</code>
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+- Fork the repository
+- Create a new branch:
+<code>git checkout -b feature/your-feature-name</code>
+- Make your changes and commit them:
+<code>git commit -m "Add your feature description"</code>
+- Push to the branch:
+<code>git push origin feature/your-feature-name
+</code>
+- Create a pull request to the original repository.
+Please ensure your pull request adhers to the coding conventions and includes any necessary tests or documentation.
 
 
 ## Show your support
