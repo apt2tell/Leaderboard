@@ -1,21 +1,25 @@
 // AddScore function
 const addScore = async (event) => {
   event.preventDefault();
-  const name = document.getElementById('name').value;
-  const score = document.getElementById('score').value;
+  const nameInput = document.getElementById('name');
+  const scoreInput = document.getElementById('score');
+  const form = document.getElementById('form');
+
   const inputData = {
-    user: name.trim(),
-    score,
+    user: nameInput.value.trim(),
+    score: scoreInput.value,
   };
+
   const dataToPost = {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
+      'content-type': 'application/json',
     },
     body: JSON.stringify(inputData),
   };
+
   await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/YDw2f6DbBPDc4QzVfPXs/scores/', dataToPost);
-  document.getElementById('form').reset();
+  form.reset();
 };
 
 export default addScore;

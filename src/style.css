@@ -3,12 +3,16 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
-  width: 70%;
-  margin: 1rem auto;
+  background-image: url('https://wallpaperaccess.com/full/343570.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .headline {
   font-family: 'audiowide', sans-serif;
+  font-size: 400%;
+  color: #e5e510;
+  text-align: center;
 }
 
 .scores {
@@ -20,10 +24,9 @@ body {
 
 .leader-board {
   display: flex;
+  margin-left: 5rem;
   gap: 5rem;
   padding: 2rem;
-  background: #eee;
-  background: linear-gradient(to bottom, #d00000, #6a040f, #370617);
 }
 
 .recent-scores {
@@ -50,11 +53,9 @@ button:hover {
 }
 
 input {
-  width: 9rem;
-  height: 1.5rem;
-  border: 2px solid #000;
-  box-shadow: 2px 2px;
-  border-radius: 6px;
+  width: 100%;
+  padding: 0.9rem;
+  box-shadow: 2px -2px 8px rgba(255, 255, 255, 0.5);
   background: #ffba08;
 }
 
@@ -66,14 +67,35 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  border: 2px solid #fff;
 }
 
 li {
   color: #fff;
-  height: 1.5rem;
+  padding: 0.9rem;
 }
 
 li:nth-child(odd) {
   background: #ffba08;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .headline {
+    font-size: 300%;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  .leader-board {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+  }
 }
