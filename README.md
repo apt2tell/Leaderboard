@@ -16,12 +16,18 @@
 - npm
 - html-webpack-plugin
 - webpack-dev-server
+- API: Leaderboard API
 
+## Live demo
+> [View](https://starlit-leaderboard.netlify.app/)
 
-## Getting Started
-Open index.html
+## Features
+- Post game scores to the leaderboard.
+- Retrieve the leaderboard list with the highest scores.
+- Display the leaderboard list in descending order.
+- Update the leaderboard with new scores.
 
-### To launch the project locally:
+## Installation
 
 #### Step 1:
 - Clone this repository in your local machine terminal:
@@ -30,7 +36,21 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/Leaderboard.git</code>
 
 #### Step 2:
 
-- Open the html pages in a web browser preferrably Chrome.
+- Navigate to the project directory:
+<code>cd leaderboard</code>
+
+### Step 3:
+- Install the required dependencies:
+<code>npm install</code>
+
+## Usage
+- Open the application in your web browser.
+
+- Click on the button to submit a game score to the leaderboard. Enter the required details and submit the form.
+
+- To view the leaderboard list, click on the "Refresh" button. The list will be displayed in descending order, showing the highest scores at the top.
+
+- To update the leaderboard, repeat step 2 with a higher score. The leaderboard will be automatically updated with the new score.
 
 ## Author
 
